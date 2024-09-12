@@ -1,0 +1,350 @@
+    body {
+        
+        background-color: #4b4b4b;
+        margin: 0; /* Removes default margin */
+        height: 100vh; /* Ensures the body takes up the full viewport height */
+        color: #fff; /* Example text color for contrast */
+    }
+    
+
+/* navbar styling */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        padding: 10px 20px;
+        color: white;
+        flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    }
+
+/* Left side (h1 and p) */
+    .nav-left {
+        display: flex;
+        flex-direction: row;
+    }
+
+/* Navigation links */
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        margin-left: 50px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    .header-container {
+        text-align: center;
+        
+    }
+
+/* Social media section in contacts*/
+    .social-section {
+        display: flex;
+
+    }
+
+    .social-section > ul {
+        list-style-type: none;
+    }
+
+    a:link{
+        color:#4CAF50;
+    }
+    a:visited {
+        color:#ccc;
+    }
+
+/* hero section in homepage styling */
+    #hero {
+        margin: 40px auto;
+        max-width: 800px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #hero h3 {
+        color: black;
+        text-align: center; /* Center align to match h2 in #about */
+        font-size: 1.5em; /* Font size consistent with #about h2 */
+        margin-bottom: 20px; /* Margin to match #about h2 */
+    }
+
+    #hero > * {
+        font-size: 1.1em;
+        line-height: 1.4; /* Adjust line-height for better readability */
+        color: #333; /* Match text color in #about */
+        margin: 0; /* Reset margins to avoid extra spacing */
+    }
+
+    #hero p {
+        margin-bottom: 15px; /* Space between paragraphs */
+    }
+
+    #hero p:last-child {
+        margin-bottom: 0; /* No extra space at the bottom of the last paragraph */
+    }
+
+/* fixed footer position*/
+    footer {
+        position:sticky;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+/* SKills section styling */
+    .skills-container-one {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        column-gap: 10px;
+    }
+
+    .icon-list {
+        list-style-type: none; /* Remove bullet points from lists */
+        padding: 0;
+        margin: 0;
+        display: contents; /* Ensures that the list items are treated as direct children of the grid container */
+    }
+    
+
+/* items in first grid */
+    .HTML {
+        grid-column: 2/3;
+        justify-self: center;
+
+    }
+    .CSS {
+        grid-column: 3/4;
+        justify-self: center;
+
+    }
+
+    .JS {
+        grid-column: 4/5;
+        justify-self: center;
+
+    }
+/* second grid styling */
+    .skills-container-two {
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        grid-template-rows: 1fr;
+        column-gap: 10px;
+    }
+
+
+    .skills-container-two > ul {
+        list-style-type: none;
+    }
+
+/*second grid items positioning */
+
+    .MySQL {
+        grid-column: 2/3;
+        justify-self: center;
+
+    }
+    .Python {
+        grid-column: 3/4;
+        justify-self: center;
+
+    }
+
+/* icons in skill section*/
+    
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .caption {
+        display: block;
+    }
+
+/* contact form styling */
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    #message {
+        padding:40px 10px;
+    }
+
+
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        width: 50%;
+        
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .sub-container {
+        text-align: center;
+
+    }
+
+
+/*about section adjustments*/
+    #about {
+        
+        margin: 40px auto;
+        max-width: 800px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #about h2 {
+        color:black;
+        text-align: center;
+        font-size: em;
+        margin-bottom: 20px;
+    }
+
+    .bio {
+        font-size: 1.1em;
+        line-height: 1;
+        color: #333;
+    }
+
+    .bio p {
+        margin-bottom: 15px;
+    }
+
+    .bio p:last-child {
+        margin-bottom: 0;
+    }
+
+/*Project page style*/
+#project-title {
+    text-align: center;
+}
+
+.project-container {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color:black;
+    text-align: left;
+    font-size: em;
+    margin-bottom: 20px;
+}
+.project-container > h2, .project-container ul{
+    text-align: left;
+}
+
+.project-container p {
+    margin-bottom: 15px;
+}
+
+.project-container p:last-child {
+    margin-bottom: 0;
+}
+
+/* gallery styling */
+.project {
+    display: none;  /* Hide all projects by default */
+}
+
+.active {
+    display: block; /* Show the active project */
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 10px;
+    color: black;
+    user-select: none;
+}
+
+/*arrow position*/
+.arrow-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Responsive adjustments */
+    @media (max-width: 768px) {
+        nav {
+            flex-direction: column; /* Stack items vertically */
+            align-items: flex-start; /* Align items to the left */
+        }
+
+        nav ul {
+            flex-direction: column; /* Stack links vertically */
+            width: 100%; /* Take full width */
+        }
+
+        nav li {
+            margin-left: 0; /* Remove left margin */
+            margin-top: 10px; /* Add space between items */
+        }
+    }
+
+@media (max-width: 480px) {
+    nav {
+        padding: 10px; /* Reduce padding */
+    }
+
+    nav h1 {
+        font-size: 1.5em; /* Adjust title size */
+    }
+
+    nav p {
+        font-size: 1em; /* Adjust subtitle size */
+    }
+
+    nav ul {
+        align-items: flex-start; /* Align links to the left */
+    }
+
+    nav li {
+        margin-top: 8px; /* Slightly reduce space between items */
+    }
+}
+

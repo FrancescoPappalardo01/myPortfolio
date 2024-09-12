@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Francesco Pappalardo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        
+        
+        <nav>
+            <div class="nav-left">
+                <h1>Francesco Pappalardo | Trainee Web Developer </h1>
+                
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <!-- Projects Section -->
+        <section class="project-section">
+            <div class="project-container">
+                <!-- Project 1 -->
+                <div class="project active" id="project1">
+                    <h1>Portfolio Webpage Project</h1>
+                    <h2>Project Description</h2>
+                    <p>During my bootcamp, I developed a personal portfolio website to showcase the projects I completed throughout the program. The primary goal of this project was to create a visually appealing, user-friendly platform where visitors can view my work and easily contact me.</p>
+                    <p>I used <strong>HTML</strong> and <strong>CSS</strong> to build and style the main content of the webpage, ensuring it was responsive and accessible across various devices. The design focuses on clean, modern aesthetics with a layout that highlights my completed projects, each accompanied by descriptions and links to view the source code.</p>
+                    <p>For the contact section, I implemented <strong>JavaScript</strong> to perform client-side form validation, enhancing the user experience by ensuring correct data is submitted before the form can be processed. This feature ensured that visitors could easily reach out with inquiries or feedback.</p>
+                    <h2>Key Features</h2>
+                    <ul>
+                        <li><strong>Project Showcase:</strong> A dedicated section highlighting individual projects completed during the bootcamp, each including descriptions, technologies used, and links to GitHub repositories.</li>
+                        <li><strong>Responsive Design:</strong> The portfolio is designed to be compatible across different screen sizes using media queries, ensuring accessibility on both mobile and desktop devices.</li>
+                        <li><strong>Interactive Contact Form:</strong> JavaScript is used for real-time form validation, providing instant feedback to users about form input errors.</li>
+                    </ul>
+                    <h2>Main Challenge</h2>
+                    <p>The biggest challenge was building an <strong>interactive and user-friendly website from scratch</strong>. It required careful planning to structure the site’s navigation intuitively and design an engaging user interface. By iterating through several design prototypes, I was able to create a polished and functional final product.</p>
+                    <a href="https://francescopappalardo01.github.io/myPortfolio/index.html">Link to: Portfolio website</a>
+                </div>
+    
+                <!-- Project 2 -->
+                <div class="project" id="project2">
+                    <h1>Calculator</h1>
+
+                    <h2>Project Description</h2>
+                    <p>The objective of this project was to test and demonstrate my JavaScript knowledge by developing a functional calculator. This involved writing JavaScript functions, setting up event listeners, and creating a user interface with HTML and CSS.</p>
+        
+                    <h2>Technologies Used</h2>
+                    <ul>
+                        <li><strong>HTML</strong>: For structuring the calculator layout.</li>
+                        <li><strong>CSS</strong>: For styling the calculator to make it visually appealing and user-friendly.</li>
+                        <li><strong>JavaScript</strong>: For implementing the calculator’s functionality, including arithmetic operations and user interactions.</li>
+                    </ul>
+        
+                    <h2>Key Features</h2>
+                    <ul>
+                        <li><strong>Four Basic Operations:</strong> Supports addition, subtraction, multiplication, and division.</li>
+                        <li><strong>AC (All Clear) Button:</strong> Resets the calculator to its initial state, clearing all input and results.</li>
+                        <li><strong>Delete Button:</strong> Removes the last entered digit or character, allowing users to correct mistakes.</li>
+                        <li><strong>Percentage Button:</strong> Calculates the percentage of the current number.</li>
+                    </ul>
+        
+                    <h2>Main Challenge</h2>
+                    <p>The main challenge was ensuring accurate and responsive functionality for all calculator operations. This involved handling various edge cases, such as division by zero and multiple consecutive operations, and managing the display updates correctly.</p>
+                </div>
+    
+                <!-- Project 3 -->
+                <div class="project" id="project3">
+                    <h1>Python Quiz Application</h1>
+
+                    <h2>Project Description</h2>
+                    <p>The objective of this project was to build an interactive quiz application using Python. The focus was on utilizing dictionaries, including nested dictionaries, to store quiz questions and answers, managing data retrieval, and understanding the differences in syntax and structure between Python and JavaScript.</p>
+        
+                    <h2>Technologies Used</h2>
+                    <ul>
+                        <li><strong>Python</strong>: For developing the quiz application.</li>
+                        <li><strong>Dictionaries</strong>: To store and manage quiz questions and answers.</li>
+                        <li><strong>Loops</strong>: To iterate through questions and handle user input.</li>
+                        <li><strong>Error Handling</strong>: To manage invalid inputs and exceptions.</li>
+                    </ul>
+        
+                    <h2>Key Features</h2>
+                    <ul>
+                        <li><strong>Dynamic Quiz Questions:</strong> Utilizes dictionaries to store quiz questions, choices, and correct answers.</li>
+                        <li><strong>User Interaction:</strong> Users can answer questions and receive feedback on their responses.</li>
+                        <li><strong>Error Handling:</strong> Implements error handling to manage invalid inputs and guide users.</li>
+                    </ul>
+        
+                    <h2>Challenges Faced</h2>
+                    <p>The primary challenge was to write efficient loops to iterate through nested dictionaries and handle quiz logic. Implementing error handling and adapting to Python's syntax compared to JavaScript were significant learning aspects.</p>
+                </div>
+                </div>
+    
+                <!-- Navigation Arrows -->
+                <div class="arrow-container">
+                    <span class="arrow" onclick="prevProject()">&#10094;</span>
+                    <span class="arrow" onclick="nextProject()">&#10095;</span>
+                </div>
+            </div>
+        </section>
+        <script src="projectScript.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Francesco Pappalardo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
