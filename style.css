@@ -293,18 +293,18 @@
     display: block; /* Show the active project */
 }
 
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*arrows position */
 .arrow {
     cursor: pointer;
     font-size: 2rem;
-    margin: 10px;
+    margin: 0 20px;
     color: black;
     user-select: none;
-}
-
-/*arrow position*/
-.arrow-container {
-    display: flex;
-    justify-content: space-between;
 }
 
 
