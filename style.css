@@ -63,10 +63,10 @@ body {
         list-style-type: none;
     }
 
-   .social-list > a:link{
+    a:link{
         color:#4CAF50;
     }
-   .social-list > a:visited {
+    a:visited {
         color:#ccc;
     }
 
