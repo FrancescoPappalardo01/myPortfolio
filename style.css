@@ -61,10 +61,10 @@
         list-style-type: none;
     }
 
-    a:link{
+   .social-section > a:link{
         color:#4CAF50;
     }
-    a:visited {
+   .social-section > a:visited {
         color:#ccc;
     }
 
